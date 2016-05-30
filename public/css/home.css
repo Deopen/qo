@@ -1,0 +1,75 @@
+/*
+
+Written By Omid Yaghoubi (DeOpen)
+DeOpenMail@gmail.com
++98935-822-23-55
+
+*/
+
+
+.user_tbl {
+	display: flex;
+	flex-direction: row;
+	flex-grow: 1;
+	
+	position:relative;
+	box-sizing:border-box;
+	overflow: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+input[type=text],input[type=email] {
+	width: 100%;
+}
+
+table.users {
+
+	table-layout: auto;
+	align-items: stretch;
+	border: 2px solid;
+	border-collapse: collapse;
+	text-align: center;
+	width: 100%;
+
+	border-color: hsla(180, 55%, 10%,0.2);
+}
+
+
+aside {
+	border-top-right-radius: 7px; 
+	border-top-left-radius: 7px;
+	text-align: center;
+	background-color:hsla(175,50%,40%,0.25);
+	margin: 0;
+}
+
+.persian_question{
+	border:1px solid black;
+	direction: rtl;
+	border-radius: 2px;
+	background-color: rgba(200,200,200,0.6);
+	text-align: right;
+}
+.persian_option{
+	
+	margin-top: 3px;
+	border-radius: 2px;
+	text-align: right;
+	direction: rtl;
+}
+
+th,td{
+	text-align: center;
+	padding: 1px;
+	border: 1px solid;
+	border-color: hsla(180, 55%, 10%,0.2);
+}
+
+tr:nth-child(even) {
+    background-color: hsla(210, 75%, 30%,0.2);
+}
+
+tr:nth-child(odd) {
+    background-color: hsla(130, 75%, 30%,0.2);
+}
